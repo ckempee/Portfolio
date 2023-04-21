@@ -1,4 +1,5 @@
 
+
 const cards = document.querySelectorAll(".card__inner");
 cards.forEach(card=> card.addEventListener("click", function (e) {
 // si la carte est active: 
@@ -35,3 +36,4 @@ var swiper = new Swiper(".mySwiper", {
       950:{slidesPerView:3,},
     },
     });
+
